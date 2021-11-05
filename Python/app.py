@@ -12,7 +12,7 @@ def home():
 if __name__ == "__main__":
     app.run(debug=True)
 
-#Python Connect to Database
+#Python Connect to mysql Database
 cnx = mysql.connector.connect(user='root', password='Tdcgid2021!',
                               host='127.0.0.1',
                               database='qrcode')
