@@ -24,7 +24,6 @@ if __name__ == "__main__":
 # cursor.close()
 # cnx.close()
 
-<<<<<<< HEAD
 # #Create QR Code
 # website = "https://google.com"
 # qr = qrcode.QRCode(
@@ -37,19 +36,3 @@ if __name__ == "__main__":
 # qr.make(fit=True)
 # img = qr.make_image(fill='black', back_color='white')
 # img.save("Test.png")
-=======
-#Create QR Code
-website = "https://google.com"
-qr = qrcode.QRCode(
-    version=1,
-    error_correction=qrcode.constants.ERROR_CORRECT_L,
-    box_size=10,
-    border=4,
-)
-qr.add_data(website)
-qr.make(fit=True)
-img = qr.make_image(fill='black', back_color='white')
-img.save("Test.png")
-
-#Test Push
->>>>>>> 97d46aa34cd35d171fc7b14335f33139e4dc77db
