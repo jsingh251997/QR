@@ -4,10 +4,10 @@
 from flask import Flask, render_template
 
 #Run Flask
-app = Flask(__name__, template_folder='../HTML')
+app = Flask(__name__)
 @app.route("/")
 def home():
-    return render_template("Workbench.html")
+    return render_template("home.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
