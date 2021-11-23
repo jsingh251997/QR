@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
 html{
+  background: rgba(3, 1, 29, 0.9);
 }
 
   .col-container{
@@ -25,20 +26,20 @@ html{
     text-align: center;
     font-family: 'Arial, Helvetica, sans-serif';
     font-weight: bold;
-    background: -webkit-linear-gradient(top, #E8A62C 0%,#E8A62C 20%,#F47924 20%,#F47924 40%,#98C1BB 40%,#98C1BB 60%,#0DB1AC 60%,#0DB1AC 80%,#7E7F77 80%,#7E7F77 100%);
+    background:  white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   #col1{
-    background-color: #E8A62C;
+    background-color: #fff4ea;
   }
   #col2{
-    background-color: #F47924;
+    background-color: #fff4ea;
   }
   #col3{
     text-align: center;
-    background-color: #0DB1AC;
+    background-color: #eafffe;
   }
   img {
     max-width: 100%;
