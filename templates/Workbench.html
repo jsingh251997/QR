@@ -7,30 +7,41 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <body>
 
-<h2 style="text-align: center;">QR Code Workbench</h2>
+<label id="Title">QR Code Workbench</label>
 
 <div class="col-container">
 
-  <div id="col1" class="column" style="background-color:#aaa;">
+  <div id="col1" class="column">
     <h2>Select QR Code to Setup</h2>
+    <div id="Qr1Img" tabindex="1">
     <figcaption>1) QR Code 1</figcaption>
-    <img onclick="Qr1()" id="QR1" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
+    <img onclick="Qr1()" id="QR1" src="../static/img/Test.png" alt="QR Code 1" width="50" height="50" style="margin-left: 25px; margin-top: 5px;">
+    </div>
+    <div id="Qr2Img" tabindex="2">
     <figcaption>2) QR Code 2</figcaption>
-    <img onclick="Qr2()" id="QR2" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
+    <img onclick="Qr2()" id="QR2" src="../static/img/Test.png" alt="QR Code 1" width="50" height="50" style="margin-left: 25px; margin-top: 5px;">
+    </div>
+    <div id="Qr3Img" tabindex="3">
     <figcaption>3) QR Code 3</figcaption>
-    <img onclick="Qr3()" id="QR3" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
+    <img onclick="Qr3()" id="QR3" src="../static/img/Test.png" alt="QR Code 1" width="50" height="50" style="margin-left: 25px; margin-top: 5px;">
+    </div>
+    <div id="Qr4Img" tabindex="4">
     <figcaption>4) QR Code 4</figcaption>
-    <img onclick="Qr4()" id="QR4" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
+    <img onclick="Qr4()" id="QR4" src="../static/img/Test.png" alt="QR Code 1" width="50" height="50" style="margin-left: 25px; margin-top: 5px;">
+    </div>
+    <div id="Qr5Img" tabindex="5">
     <figcaption>5) QR Code 5</figcaption>
-    <img onclick="Qr5()" id="QR5" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
+    <img onclick="Qr5()" id="QR5" src="../static/img/Test.png" alt="QR Code 1" width="50" height="50" style="margin-left: 25px; margin-top: 5px;">
+    </div>
+    <div id="Qr6Img" tabindex="6">
     <figcaption>6) QR Code 6</figcaption>
-    <img onclick="Qr6()" id="QR6" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
+    <img onclick="Qr6()" id="QR6" src="../static/img/Test.png" alt="QR Code 1" width="50" height="50" style="margin-left: 25px; margin-top: 5px;">
+    </div>
   </div>
 
 
-  <div id="col2"class="column" style="background-color:#bbb;">
-    <h2 style="text-align: center;" id="inputTitle">Bag Input</h2>
-    <h2>Bag Details</h2>
+  <div id="col2"class="column">
+    <h2 style="text-decoration:underline; text-align: center;">Bag Details</h2>
     <div id="BagNameInput" class = "input-group mb-3">
         <label for = "BagName" class="control-label" style="margin-right: 16px;">Bag Name</label>
         <input type="text" class="form-control" name="BagName" id="BagN" onkeyup="BagName()">
@@ -39,10 +50,10 @@
         <label for = "BagDescription" style="vertical-align: top; margin-top: 6%; display:inline-block;" class="control-label">Bag Description</label>
         <textarea name="Text1" cols="40" rows="5" name="BagDescription" id="BagD" onkeyup="BagDescription()"></textarea>
     </div>
-    <h2>Upload Bag Photo</h2>
+    <h2 style="text-decoration:underline; text-align: center;">Upload Bag Photo</h2>
     <input type="file"  name="imageFile" id="imageFile" onchange="uploadFile()"> 
     <div id="preview" ><!--image will be inserted here--></div>  
-    <h2>Add Bag Info</h2>
+    <h2 style="text-decoration:underline; text-align: center;">Add Bag Info</h2>
     <div id="BagMaterialInput" class = "input-group mb-3">
         <label for = "BagMaterial" style="margin-right: 10px; vertical-align: top; margin-top: 25%; display:inline-block;" class="control-label">Bag Material</label>
         <textarea name="Text2" cols="40" rows="20" name="BagMaterial" id="BagM" onkeyup="BagMaterial()"></textarea>
@@ -50,8 +61,7 @@
   </div>
 
 
-  <div id="col3"class="column" style="background-color:#ccc;">
-    <h2 style="text-align: center;" id="inputTitlePrev">Bag Preview</h2>
+  <div id="col3"class="column">
     <h1 id="BagTitle">Bag Name</h1>
     <label for ="BagD" id="BagDescription">Description of the bag. It can be anything to describe the product</label>
     <div id="preview2"> 

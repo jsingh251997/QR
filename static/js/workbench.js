@@ -63,27 +63,21 @@ function uploadFile(){
 }
 
 function Qr1(){
-    document.getElementById("inputTitle").innerHTML = "QR Code 1";
-    document.getElementById("inputTitlePrev").innerHTML = "QR Code 1 Preview";
+
 }
 function Qr2(){
-    document.getElementById("inputTitle").innerHTML = "QR Code 2";
-    document.getElementById("inputTitlePrev").innerHTML = "QR Code 2 Preview";
+
 }
 function Qr3(){
-    document.getElementById("inputTitle").innerHTML = "QR Code 3";
-    document.getElementById("inputTitlePrev").innerHTML = "QR Code 3 Preview";
+
 }
 function Qr4(){
-    document.getElementById("inputTitle").innerHTML = "QR Code 4";
-    document.getElementById("inputTitlePrev").innerHTML = "QR Code 4 Preview";
+
 }
 function Qr5(){
-    document.getElementById("inputTitle").innerHTML = "QR Code 5";
-    document.getElementById("inputTitlePrev").innerHTML = "QR Code 5 Preview";
+
 }
 function Qr6(){
-    document.getElementById("inputTitle").innerHTML = "QR Code 6";
-    document.getElementById("inputTitlePrev").innerHTML = "QR Code 6 Preview";
+
 }
  

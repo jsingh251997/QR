@@ -1,32 +1,79 @@
 * {
     box-sizing: border-box;
   }
-  
-  /* Create three equal columns that floats next to each other */
+html{
+}
+
   .col-container{
-    display: table;
-    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 50% 25%;
+
   }
   .column {
-    display: table-cell;
     padding: 10px;
+    margin-right: 1%;
+    float: left;
+  }
+  .column:last-child{
+    margin-right: 0%;
+  }
+
+  #Title{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #E8A62C 0%,#E8A62C 20%,#F47924 20%,#F47924 40%,#98C1BB 40%,#98C1BB 60%,#0DB1AC 60%,#0DB1AC 80%,#7E7F77 80%,#7E7F77 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   #col1{
-    width:20%;
+    background-color: #E8A62C;
   }
   #col2{
-    width:40%;
+    background-color: #F47924;
   }
   #col3{
-    width:40%;
     text-align: center;
+    background-color: #0DB1AC;
   }
   img {
     max-width: 100%;
     max-height: 100%;
-    cursor: pointer;
 }
+
+#Qr1Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+  }
+#Qr2Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr3Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr4Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr5Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr6Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+div:focus{
+  background-color: rgba(46, 44, 44, 0.3);;
+}
+
+
   #preview{
       margin-top: 2%;
       width: 20%;
@@ -35,7 +82,7 @@
   #preview2{
     margin: auto;
     width: 50%;
-    height: 50%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +94,7 @@
   }
 
   #BagDescription{
-    margin-top: 2%;
+    margin-top: 10%;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
