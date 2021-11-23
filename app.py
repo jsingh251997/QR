@@ -2,15 +2,19 @@
 # import qrcode
 # import mysql.connector
 from flask import Flask, render_template
+import os
 
 #Run Flask
+ASSETS_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
+
 @app.route("/")
 def home():
     return render_template("home.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    context = ('local.crt', 'local.key')#certificate and key file
+    app.run(debug=True, ssl_context='adhoc')
 
 # #Python Connect to mysql Database
 # cnx = mysql.connector.connect(user='root', password='Tdcgid2021!',
