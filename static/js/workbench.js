@@ -61,23 +61,94 @@ function uploadFile(){
     var file = $("input[type=file]").get(0).files[0];
     renderImage(file);
 }
-
+var imagDiv1 = document.getElementById("Qr1Img");
+var imagDiv2 = document.getElementById("Qr2Img");
+var imagDiv3 = document.getElementById("Qr3Img");
+var imagDiv4 = document.getElementById("Qr4Img");
+var imagDiv5 = document.getElementById("Qr5Img");
+var imagDiv6 = document.getElementById("Qr6Img");
 function Qr1(){
-
+    imagDiv1.style.backgroundColor = "rgb(3, 1, 29, 0.5)";
+    imagDiv1.style.color = "white";
+    imagDiv2.style.backgroundColor = "";
+    imagDiv2.style.color = "black";
+    imagDiv3.style.backgroundColor = "";
+    imagDiv3.style.color = "black";
+    imagDiv4.style.backgroundColor = "";
+    imagDiv4.style.color = "black";
+    imagDiv5.style.backgroundColor = "";
+    imagDiv5.style.color = "black";
+    imagDiv6.style.backgroundColor = "";
+    imagDiv6.style.color = "black";
 }
 function Qr2(){
-
+    imagDiv2.style.backgroundColor = "rgb(3, 1, 29, 0.5)";
+    imagDiv2.style.color = "white";
+    imagDiv1.style.backgroundColor = "";
+    imagDiv1.style.color = "black";
+    imagDiv3.style.backgroundColor = "";
+    imagDiv3.style.color = "black";
+    imagDiv4.style.backgroundColor = "";
+    imagDiv4.style.color = "black";
+    imagDiv5.style.backgroundColor = "";
+    imagDiv5.style.color = "black";
+    imagDiv6.style.backgroundColor = "";
+    imagDiv6.style.color = "black";
 }
 function Qr3(){
-
+    imagDiv3.style.backgroundColor = "rgb(3, 1, 29, 0.5)";
+    imagDiv3.style.color = "white";
+    imagDiv2.style.backgroundColor = "";
+    imagDiv2.style.color = "black";
+    imagDiv1.style.backgroundColor = "";
+    imagDiv1.style.color = "black";
+    imagDiv4.style.backgroundColor = "";
+    imagDiv4.style.color = "black";
+    imagDiv5.style.backgroundColor = "";
+    imagDiv5.style.color = "black";
+    imagDiv6.style.backgroundColor = "";
+    imagDiv6.style.color = "black";
 }
 function Qr4(){
-
+    imagDiv4.style.backgroundColor = "rgb(3, 1, 29, 0.5)";
+    imagDiv4.style.color = "white";
+    imagDiv2.style.backgroundColor = "";
+    imagDiv2.style.color = "black";
+    imagDiv3.style.backgroundColor = "";
+    imagDiv3.style.color = "black";
+    imagDiv1.style.backgroundColor = "";
+    imagDiv1.style.color = "black";
+    imagDiv5.style.backgroundColor = "";
+    imagDiv5.style.color = "black";
+    imagDiv6.style.backgroundColor = "";
+    imagDiv6.style.color = "black";
 }
 function Qr5(){
-
+    imagDiv5.style.backgroundColor = "rgb(3, 1, 29, 0.5)";
+    imagDiv5.style.color = "white";
+    imagDiv2.style.backgroundColor = "";
+    imagDiv2.style.color = "black";
+    imagDiv3.style.backgroundColor = "";
+    imagDiv3.style.color = "black";
+    imagDiv4.style.backgroundColor = "";
+    imagDiv4.style.color = "black";
+    imagDiv1.style.backgroundColor = "";
+    imagDiv1.style.color = "black";
+    imagDiv6.style.backgroundColor = "";
+    imagDiv6.style.color = "black";
 }
 function Qr6(){
-
+    imagDiv6.style.backgroundColor = "rgb(3, 1, 29, 0.5)";
+    imagDiv6.style.color = "white";
+    imagDiv2.style.backgroundColor = "";
+    imagDiv2.style.color = "black";
+    imagDiv3.style.backgroundColor = "";
+    imagDiv3.style.color = "black";
+    imagDiv4.style.backgroundColor = "";
+    imagDiv4.style.color = "black";
+    imagDiv5.style.backgroundColor = "";
+    imagDiv5.style.color = "black";
+    imagDiv1.style.backgroundColor = "";
+    imagDiv1.style.color = "black";
 }
  
