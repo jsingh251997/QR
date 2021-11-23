@@ -30,16 +30,31 @@ function renderImage(file){
 
 function BagName(){
     var BagNameTitle = document.getElementById("BagN").value;
-    document.getElementById("BagTitle").innerHTML = BagNameTitle;
+    if(BagNameTitle == ''){
+        document.getElementById("BagTitle").innerHTML = "Bag Name";
+    }
+    else{
+        document.getElementById("BagTitle").innerHTML = BagNameTitle;
+    }
 }
 function BagDescription(){
     var BagDescp = document.getElementById("BagD").value;
-    document.getElementById("BagDescription").innerHTML = BagDescp;
+    if(BagDescp == ""){
+        document.getElementById("BagDescription").innerHTML = "Description of the bag. It can be anything to describe the product";
+    }
+    else{
+        document.getElementById("BagDescription").innerHTML = BagDescp;
+    }
 }
 function BagMaterial(){
     var BagMat = document.getElementById("BagM").value;
-    document.getElementById("BagMaterial").innerHTML = BagMat;
-    document.getElementById("BagMaterial").style.lineHeight = '10px';
+    if(BagMat == ''){
+        document.getElementById("BagMaterial").innerHTML = "Crude Protein (Min) 28.0%\nCrude Fat (Min) 13.0%\nCrude Fiber (Max) 4.75%\nMoisture (Max) 12.0%\nLinoleic Acid (Min) 1.6%\nDocosahexaenoic Acid (DHA) (Min) 0.1%\nCalcium (Ca) (Min) 1.1%\nPhosphorus (P) (Min) 0.9%\nVitamin A (Min) 15,000 IU/kg\nVitamin E (Min) 100 IU/kg\nGlucosamine* (Min) 500 mg/kg\nOmega-6 Fatty Acids* (Min) 1.8%\nBacillus coagulans* (Min) 600 million CFU/lb";
+    }
+    else{
+        document.getElementById("BagMaterial").innerHTML = BagMat;
+        document.getElementById("BagMaterial").style.lineHeight = '10px';
+    }
 }
 
 function uploadFile(){

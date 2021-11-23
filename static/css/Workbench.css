@@ -3,11 +3,15 @@
   }
   
   /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    padding: 10px;
-    height: 100vh; /* Should be removed. Only for demonstration */
+  .col-container{
+    display: table;
+    width: 100%;
   }
+  .column {
+    display: table-cell;
+    padding: 10px;
+  }
+
   #col1{
     width:20%;
   }
@@ -29,7 +33,7 @@
       height: 20%;
   }
   #preview2{
-      margin: auto;
+    margin: auto;
     width: 50%;
     height: 50%;
     display: flex;
@@ -55,7 +59,12 @@
     margin-right: auto;
     white-space: pre-wrap;
 } 
-  
+#BagNameInput{
+  margin-left: 20px;
+}
+#BagMaterialInput{
+  margin-left: 10px;
+}
   /* Clear floats after the columns */
   .row:after {
     content: "";

@@ -9,7 +9,8 @@
 
 <h2 style="text-align: center;">QR Code Workbench</h2>
 
-<div class="row">
+<div class="col-container">
+
   <div id="col1" class="column" style="background-color:#aaa;">
     <h2>Select QR Code to Setup</h2>
     <figcaption>1) QR Code 1</figcaption>
@@ -24,28 +25,31 @@
     <img onclick="Qr5()" id="QR5" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
     <figcaption>6) QR Code 6</figcaption>
     <img onclick="Qr6()" id="QR6" src="../static/img/Test.png" alt="QR Code 1" width="40" height="40" style="margin-left: 25px; margin-top: 5px;">
-
-
   </div>
+
+
   <div id="col2"class="column" style="background-color:#bbb;">
     <h2 style="text-align: center;" id="inputTitle">Bag Input</h2>
-    <div class = "input-group mb-3">
-        <label for = "BagName" class="control-label">Bag Name</label>
-        <input type="text" class="form-control" name="BagName" id="BagN" onchange="BagName()">
+    <h2>Bag Details</h2>
+    <div id="BagNameInput" class = "input-group mb-3">
+        <label for = "BagName" class="control-label" style="margin-right: 16px;">Bag Name</label>
+        <input type="text" class="form-control" name="BagName" id="BagN" onkeyup="BagName()">
     </div>
     <div class = "input-group mb-3">
         <label for = "BagDescription" style="vertical-align: top; margin-top: 6%; display:inline-block;" class="control-label">Bag Description</label>
-        <textarea name="Text1" cols="40" rows="5" name="BagDescription" id="BagD" onchange="BagDescription()"></textarea>
+        <textarea name="Text1" cols="40" rows="5" name="BagDescription" id="BagD" onkeyup="BagDescription()"></textarea>
     </div>
     <h2>Upload Bag Photo</h2>
     <input type="file"  name="imageFile" id="imageFile" onchange="uploadFile()"> 
     <div id="preview" ><!--image will be inserted here--></div>  
     <h2>Add Bag Info</h2>
-    <div class = "input-group mb-3">
-        <label for = "BagMaterial" style="vertical-align: top; margin-top: 25%; display:inline-block;" class="control-label">Bag Material</label>
-        <textarea name="Text2" cols="40" rows="20" name="BagMaterial" id="BagM" onchange="BagMaterial()"></textarea>
+    <div id="BagMaterialInput" class = "input-group mb-3">
+        <label for = "BagMaterial" style="margin-right: 10px; vertical-align: top; margin-top: 25%; display:inline-block;" class="control-label">Bag Material</label>
+        <textarea name="Text2" cols="40" rows="20" name="BagMaterial" id="BagM" onkeyup="BagMaterial()"></textarea>
     </div>
   </div>
+
+
   <div id="col3"class="column" style="background-color:#ccc;">
     <h2 style="text-align: center;" id="inputTitlePrev">Bag Preview</h2>
     <h1 id="BagTitle">Bag Name</h1>
