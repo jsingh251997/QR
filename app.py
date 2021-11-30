@@ -13,7 +13,7 @@ def home():
     return render_template("home.html")
 
 @app.route("/workbench")
-def home():
+def workbench():
     return render_template("Workbench.html")
 
 # if __name__ == "__main__":
