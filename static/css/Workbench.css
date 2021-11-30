@@ -1,32 +1,78 @@
 * {
     box-sizing: border-box;
   }
-  
-  /* Create three equal columns that floats next to each other */
+html{
+  background: rgba(3, 1, 29, 0.9);
+}
+
   .col-container{
-    display: table;
-    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 50% 25%;
   }
   .column {
-    display: table-cell;
     padding: 10px;
+    margin-right: 1%;
+    float: left;
+    height: 900px;
+  }
+  .column:last-child{
+    margin-right: 0%;
+  }
+
+  #Title{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: bold;
+    background:  white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   #col1{
-    width:20%;
+    background-color: #fff4ea;
   }
   #col2{
-    width:40%;
+    background-color: #fff4ea;
   }
   #col3{
-    width:40%;
     text-align: center;
+    background-color: #eafffe;
   }
   img {
     max-width: 100%;
     max-height: 100%;
-    cursor: pointer;
 }
+
+#Qr1Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+  }
+#Qr2Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr3Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr4Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr5Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+#Qr6Img:hover{
+  background: rgb(187, 185, 185,0.5); /* make this whatever you want */
+  cursor: pointer;
+}
+
+
+
   #preview{
       margin-top: 2%;
       width: 20%;
@@ -34,8 +80,8 @@
   }
   #preview2{
     margin: auto;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,8 +93,7 @@
   }
 
   #BagDescription{
-    margin-top: 2%;
-    width: 400px;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     white-space: pre-wrap;
