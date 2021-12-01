@@ -1,6 +1,7 @@
 h1 {
-    font-size: 52px;
-    text-align: left;
+    font-size: 4em;
+    text-align: center;
+	font-family: 'Poppins', sans-serif;
 }
 
 .main-nav {
@@ -170,15 +171,15 @@ main-nav ul {
 	color: #5A3B5D;
 }
 
-/* .device {
-	position: relative;
-	width: 345px;
-	height: 600px;
+ .device {
+	/* position: relative; */
+	 width: 100%;
+	height: 100%; 
 	background: #FFF;
-	border: 1px solid #EEE;
+	/* border: 1px solid #EEE;
 	border-radius: 3px;
-	box-shadow: 0 0 0 10px rgba(0,0,0,.1);
-} */
+	box-shadow: 0 0 0 10px rgba(0,0,0,.1); */
+} 
 
 /* .container {
 	position: absolute;
