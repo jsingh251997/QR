@@ -3,7 +3,8 @@
 # import mysql.connector
 from flask import Flask, render_template, redirect
 # import os
-
+#random change on the file
+#second random change
 #Run Flask
 # ASSETS_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
