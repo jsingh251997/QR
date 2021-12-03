@@ -1,3 +1,16 @@
+
+setTimeout(function() {
+    document.getElementById("BagImageDiv").style.display = "block";
+}, 3300);
+
+setTimeout(function() {
+    window.location.replace("https://www.purinamills.com/");
+}, 6000);
+
+
+
+/*
+OLD MENU ANIMATION
 $(document).ready(function() {
 
 
@@ -15,6 +28,7 @@ slowmo.addEventListener('click', function(e){
 });
 
 /* Onload demo - dirty timeout */
+/*
 let clickEvent = new Event('click');
 
 window.addEventListener('load', function(e) {
@@ -29,4 +43,4 @@ window.addEventListener('load', function(e) {
 		}, 3500);
 	}, 5500);
 });
-});
+});*/
