@@ -10,11 +10,13 @@ from flask import Flask, render_template, redirect
 app = Flask(__name__)
 @app.route("/")
 def QR():
-    return redirect("https://www.purinamills.com/")
+    return render_template("home.html")
+    # return redirect("https://www.purinamills.com/")
 
 @app.route("/home")
 def home():
-    return render_template("home.html")
+    # return render_template("home.html")
+    return redirect("https://www.purinamills.com/")
 
 @app.route("/workbench")
 def workbench():
