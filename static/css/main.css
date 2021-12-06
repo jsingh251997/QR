@@ -1,8 +1,12 @@
-/* h1 {
+h1 {
     font-size: 4em;
     text-align: center;
 	font-family: 'Poppins', sans-serif;
-} */
+	color: #5B5351;
+}
+h2, h3{
+	color: #5B5351;
+}
 
 #BagImageDiv{
 	opacity:0;
