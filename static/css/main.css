@@ -317,7 +317,7 @@ body {
 #IntroText{
 	position: relative;
 	margin-bottom: 55px;
-	margin-left: 18px;
+	
     -webkit-animation: fadeinout 3.3s linear forwards;
     animation: fadeinout 3.3s linear forwards;
 }

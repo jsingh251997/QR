@@ -2,6 +2,7 @@
 setTimeout(function() {
 	document.getElementById("loadId").outerHTML="";
 	document.getElementById("IntroText").outerHTML="";
+	document.getElementById('BagImageDiv').style.display = "block";
 	document.getElementById('BagImageDiv').style.opacity = 1;
 
 }, 3100);
@@ -11,13 +12,14 @@ setTimeout(function() {
 }, 7100);
 setTimeout(function() {
 	document.getElementById('BagImageDiv').outerHTML = "";
+	document.getElementById('LoadOverview').style.display = "block";
 	document.getElementById('LoadOverview').style.opacity = 1;
 	console.log("HELLO");
 }, 8100);
 setTimeout(function() {
 	document.getElementById("LoadOverview").style.opacity = 0;
     window.location.replace("https://www.purinamills.com/");
-}, 9700);
+}, 10000);
 
 
 
