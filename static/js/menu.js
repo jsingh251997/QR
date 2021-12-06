@@ -18,8 +18,12 @@ setTimeout(function() {
 }, 8100);
 setTimeout(function() {
 	document.getElementById("LoadOverview").style.opacity = 0;
+
+}, 9500);
+setTimeout(function() {
+	
     window.location.replace("https://www.purinamills.com/");
-}, 10000);
+}, 11000);
 
 
 
