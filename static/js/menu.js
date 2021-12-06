@@ -1,11 +1,11 @@
 
-setTimeout(function() {
-    document.getElementById("BagImageDiv").style.display = "block";
-}, 3300);
+// setTimeout(function() {
+//     document.getElementById("BagImageDiv").style.display = "block";
+// }, 3300);
 
-setTimeout(function() {
-    window.location.replace("https://www.purinamills.com/");
-}, 6000);
+// setTimeout(function() {
+//     window.location.replace("https://www.purinamills.com/");
+// }, 6000);
 
 
 
