@@ -283,20 +283,27 @@ body {
 
 
 /*IMAGE AFTER EFFECTS */
+#BagImageDiv{
+	width: 100%;
+	height: 80%;
+}
+#image{
 
+	text-align: center;
+}
 
 
 
 /* TEXT EFFECTS */
 
 
-/* #IntroText{
+#IntroText{
 	position: relative;
-	margin-bottom: 70px;
-	margin-left: 20px;
+	margin-bottom: 55px;
+	margin-left: 18px;
     -webkit-animation: fadeinout 3.3s linear forwards;
     animation: fadeinout 3.3s linear forwards;
-} */
+}
 @-webkit-keyframes fadeinout {
 	0%,100% { opacity: 0; }
 	50% { opacity: 1; }
@@ -308,7 +315,7 @@ body {
   }
 #IntroText p {
 
-    font-size: 5.9vw;
+    font-size: 45px;
     text-align: center;
 }
 
