@@ -1,10 +1,10 @@
-h1 {
+#BagImageDiv h1 {
     font-size: 2em;
     text-align: center;
 	font-family: 'Poppins', sans-serif;
 	color: #aca7a6;
 }
-h2, h3{
+#BagImageDiv h2, h3{
 	text-align: center;
 	color: #777271;
 	font-family: 'Poppins', sans-serif;
