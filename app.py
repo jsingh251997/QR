@@ -17,7 +17,7 @@ def QR():
 @app.route("/home")
 def home():
     # return render_template("home.html")
-    return redirect("https://www.purinamills.com/")
+    return redirect("https://www.google.com/")
 
 @app.route("/workbench")
 def workbench():
