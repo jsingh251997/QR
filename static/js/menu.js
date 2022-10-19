@@ -22,7 +22,7 @@ setTimeout(function() {
 }, 9500);
 setTimeout(function() {
 	
-    window.location.replace("https://www.purinamills.com/");
+    window.location.replace("https://www.google.com/");
 }, 11000);
 
 
